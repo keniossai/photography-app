@@ -1,5 +1,11 @@
+
 .App {
-  text-align: center;
+  /* text-align: center; */
+  background: url('../src/assets/8077.jpg');
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 800px;
 }
 
 .App-logo {
