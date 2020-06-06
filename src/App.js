@@ -6,6 +6,7 @@ import Header from './pages/header/header-component'
 import HomePage from './pages/homepage/homepage'
 
 import './App.css';
+import Gallery from './pages/galerries/gallery-component';
 
 function App() {
   return (
@@ -13,6 +14,7 @@ function App() {
       <Header />
       <Route exact path='/' component={HomePage}  />
       <Route path='/content' component={Content} />
+      <Route path='/gallery' component={Gallery} />
     </div>
   );
 }

@@ -1,0 +1,11 @@
+<div className="discovery-body-region">
+                    <div className="galleries-body">
+                        <div className="galleries-body-grid infinite-scroll-container">
+                            <div className="gallery-card-view px-card .medium no-badge">
+                                <div className="gallery-card-overlay"></div>
+                                <Link className='link-wrap'></Link>
+                                <div className="top"><img src="../../assets/images/2.png" alt=""/></div>
+                            </div>
+                        </div>
+                    </div>
+                </div>

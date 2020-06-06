@@ -12,25 +12,30 @@ const Header = () => (
         <div className="collapse navbar-collapse" id="navbarNav">
           <ul className="navbar-nav ml-auto">
             <li className="nav-item active">
-              <Link className="nav-link" to="#">Home <span className="sr-only">(current)</span></Link>
+              <Link className="nav-link" to="/">Home <span className="sr-only">(current)</span></Link>
+            </li>
+            <li className="nav-item dropdown">
+              <Link className="nav-link dropdown-toggle" id="navbarDropdownMenuLink" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">Discover</Link>
+              <div className="dropdown-menu dropdown-primary" aria-labelledby="navbarDropdownMenuLink">
+                <Link className="dropdown-item" to="#">Upcoming Photo</Link>
+                <Link className="dropdown-item" to="#">Fresh Photo</Link>
+                <Link className="dropdown-item" to="#">Popular Photo</Link>
+                <Link className="dropdown-item" to="/gallery">Gallery</Link>
+              </div>
             </li>
             <li className="nav-item">
-              <Link className="nav-link" to="/content">Contact</Link>
+              <Link className="nav-link" to="/content">Content</Link>
             </li>
             <li className="nav-item">
               <Link className="nav-link" to="#">About</Link>
             </li>
             <li className="nav-item">
-              <Link className="nav-link" to="#" tabIndex={-1} aria-disabled="true">Login</Link>
+              <Link className="nav-link" to="#">Login</Link>
+            </li>
+            <li className="nav-item">
+              <Link className="nav-link" to="/signup" tabIndex={-1} aria-disabled="true">Sign Up</Link>
             </li>
           </ul>
-          {/* <ul className="navbar-nav nav-flex-icons">
-        <li className="nav-item avatar">
-          <Link className="nav-link p-0" href="#">
-            <img src="https://mdbootstrap.com/img/Photos/Avatars/avatar-5.jpg" className="rounded-circle z-depth-0 w-50" alt="avatarimage" height={45} />
-          </Link>
-        </li>
-      </ul> */}
         </div>
       </nav>
 )

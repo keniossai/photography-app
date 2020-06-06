@@ -41,7 +41,7 @@ const HomePage = () => (
             {/* Title */}
             <h4 className="card-title"><b>Grow as a photographer</b></h4>
             {/* Text */}
-            <p className="card-text">Get immediate exposure with your first upload. Our Pulse algorithm surfaces new photographs and 
+            <p className="c-text">Get immediate exposure with your first upload. Our Pulse algorithm surfaces new photographs and 
             photographers, ensuring your photos are seen by the community so you receive valuable feedback on day one.</p>
             {/* Provides extra visual weight and identifies the primary action in Link set of buttons */}
           </div>
@@ -62,7 +62,7 @@ const HomePage = () => (
             {/* Title */}
             <h4 className="card-title">Build Your Career</h4>
             {/* Text */}
-            <p className="card-text">Present yourself as a professional. Get hired by displaying your services, 
+            <p className="c-text">Present yourself as a professional. Get hired by displaying your services, 
             create a Directory listing, showcase the workshops you're holding, and create Galleries to highlight your work.</p>
             {/* Provides extra visual weight and identifies the primary action in Link set of buttons */}
           </div>
@@ -83,7 +83,7 @@ const HomePage = () => (
             {/* Title */}
             <h4 className="card-title">See how you're performing</h4>
             {/* Text */}
-            <p className="card-text">With Statistics and Pulse you get valuable insights into how your photos are performing and how you rank in comparison to other photographers in the community.</p>
+            <p className="c-text">With Statistics and Pulse you get valuable insights into how your photos are performing and how you rank in comparison to other photographers in the community.</p>
             {/* Provides extra visual weight and identifies the primary action in Link set of buttons */}
           </div>
           {/* Card content */}
